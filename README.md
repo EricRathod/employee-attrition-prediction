@@ -1,60 +1,72 @@
 # Employee Attrition Prediction
 
-This project predicts employee attrition using machine learning.  
-The goal is to identify employees who are likely to leave the company and understand the key factors affecting employee turnover.
+## Project Overview
+
+This project uses Machine Learning to predict employee attrition and identify the factors that contribute to employee turnover. The goal is to help organizations improve employee retention through data-driven decision making.
 
 ## Dataset
 
 IBM HR Analytics Employee Attrition Dataset
 
-- Rows: 1,470
-- Columns: 35
-- Target column: Attrition
-- Attrition rate: 16.12%
+* Records: 1,470 employees
+* Features: 35 employee attributes
+* Target Variable: Attrition (Yes/No)
+
+Dataset Source:
+https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
 ## Technologies Used
 
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-Learn
-- Random Forest Classifier
-- Google Colab
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+* Random Forest Classifier
+* Google Colab
 
 ## Project Workflow
 
-1. Loaded and explored the dataset
-2. Checked missing values
-3. Visualized employee attrition distribution
-4. Encoded categorical columns
-5. Trained a Random Forest model
-6. Evaluated model performance
-7. Analyzed feature importance
-8. Created visualizations
-9. Generated business recommendations
+1. Data Loading and Exploration
+2. Missing Value Analysis
+3. Exploratory Data Analysis (EDA)
+4. Data Preprocessing and Label Encoding
+5. Feature Selection
+6. Train-Test Split
+7. Random Forest Model Training
+8. Model Evaluation
+9. Feature Importance Analysis
+10. Business Insights and Recommendations
 
-## Model Result
+## Results
 
-The Random Forest model achieved **88.10% accuracy**.
+* Model Accuracy: 88.10%
+* Employee Attrition Rate: 16.12%
 
-Note: Recall for employees who left was low because the dataset is imbalanced. Future improvements can include SMOTE, class weights, or XGBoost.
+Top Factors Influencing Attrition:
+
+* Monthly Income
+* Overtime
+* Age
+* Daily Rate
+* Total Working Years
 
 ## Key Insights
 
-- Overtime is one of the strongest indicators of employee attrition.
-- Monthly income and age influence employee retention.
-- Certain departments experience higher attrition rates.
-- Predictive analytics can help identify at-risk employees early.
+* Employees working overtime are more likely to leave the organization.
+* Monthly income significantly impacts employee retention.
+* Employee age and experience influence attrition behavior.
+* Predictive analytics can help organizations proactively identify at-risk employees.
 
 ## Business Recommendations
 
-- Monitor employees working overtime regularly.
-- Improve employee retention programs.
-- Review compensation and monthly income structures.
-- Provide career growth opportunities for long-term employees.
-- Use predictive analytics to support workforce planning.
+* Monitor overtime workload regularly.
+* Improve employee retention programs.
+* Review compensation strategies.
+* Support employee career growth opportunities.
+* Use predictive analytics for workforce planning.
 
 ## Author
+Eric Rathod
 
 Eric Rathod
