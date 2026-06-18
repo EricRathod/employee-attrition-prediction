@@ -68,5 +68,3 @@ Top Factors Influencing Attrition:
 
 ## Author
 Eric Rathod
-
-Eric Rathod
